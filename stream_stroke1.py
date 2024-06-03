@@ -77,9 +77,9 @@ if Age_Years_input.strip() and Sex_input.strip() and hypertension_input.strip() 
 
         # Menampilkan hasil prediksi
         if stroke_prediction[0] == 1:
-            stroke_prediction = 'Seseorang tidak terkena Stroke'
+            stroke_prediction = 'Anda tidak terkena Stroke'
         else:
-            stroke_prediction = 'Seseorang terkena Stroke'
+            stroke_prediction = 'Anda terkena Stroke'
 
         st.success(stroke_prediction)
 else:
