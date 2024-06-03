@@ -37,9 +37,9 @@ work_type_y = work_type_mapping[work_type_input]
 
 Residence_type_input = st.selectbox(
     "Pilih Residence_type:",
-    ('Urban', 'Rudal')
+    ('Urban', 'Rural')
 )
-Residence_type_mapping = {'Urban': 1, 'Rudal': 0}
+Residence_type_mapping = {'Urban': 1, 'Rural': 0}
 Residence_type_y = Residence_type_mapping[Residence_type_input]
 
 smoking_status_input = st.selectbox(
